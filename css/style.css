@@ -131,15 +131,30 @@
 }
 
 @keyframes loading{
-    0% {transform: rotate(0deg)}
-    100% {transform: rotate(360deg)}
+    0% {transform: rotate(360deg)}
+    100% {transform: rotate(0deg)}
 }
 
-
+/* esercizio 11 */
 
 .ex-11-icon {
-    font-size: 60px;
+    font-size: 60px; 
 }
+
+.ex-11-icon:hover{
+    animation: half-loading 2.5s linear; 
+}
+
+@keyframes half-loading{
+    0% {transform: rotate(0deg)}
+    30% {transform: rotate(90deg)}
+    500% {transform: rotate(180deg)}
+    80% {transform: rotate(300deg)}
+    100% {transform: rotate(0deg)}
+}
+
+/* eserczio 12/13 */
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
