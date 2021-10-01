@@ -104,11 +104,26 @@
 
 /* esercizio 9 */
 
-
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 2s;
 }
+
+.ex-9-img:hover{
+    border-radius: 20px;
+}
+
+.ex-9-img:hover{
+    filter: sepia(0.5) grayscale(0.5)
+}
+
+.ex-9-img:hover{
+    transform: scale(1.5);
+}
+
+/* esercizio 10 */
+
 .ex-10-icon {
     font-size: 60px;
 }
