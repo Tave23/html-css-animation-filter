@@ -13,16 +13,20 @@
 
 /* esercizio 2 */
 
-
-
-
-
-
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: width 2s ease-in-out;
 }
+
+.ex-2-square:active{
+    width: 100%;
+}
+
+/* esercizio 3 */
+
+
 .ex-3-square {
     width: 100px;
     height: 100px;
