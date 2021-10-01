@@ -208,3 +208,34 @@
     50%{transform: translateX(-90px);}
     100%{transform: translateX(0px);}
 }
+
+/* esercizio 13 */
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: rotate 2s linear;
+}
+
+@keyframes rotate{
+    0%  { transform: translate(0, 0);}
+  20% { transform: translate(140px, 0);}
+  40% { transform: translate(140px, 60px);}
+  60% { transform: translate(-40px, 60px);}
+  80%{ transform: translate(-40px, 0);}
+  100%{ transform: translate(0, 0);}
+    
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: rotate2 2s linear;
+}
+
+@keyframes rotate2{
+    0%  { transform: translate(0, 0);}
+  20% { transform: translate(-140px, 0);}
+  40% { transform: translate(-140px, -60px);}
+  60% { transform: translate(60px, -60px);}
+  80%{ transform: translate(60px, 0);}
+  100%{ transform: translate(0, 0);}
+    
+}
+
