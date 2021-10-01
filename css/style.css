@@ -184,3 +184,27 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-button:hover, .ex-13-button:hover{
+    text-decoration: underline;
+}
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: move 2s linear;
+}
+
+@keyframes move{
+    0%{transform:translateX(0px)}
+    50%{transform: translateX(110px);}
+    100%{transform: translateX(0px);}
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: move2 2s linear;
+}
+
+@keyframes move2{
+    0%{transform:translateX(0px)}
+    50%{transform: translateX(-90px);}
+    100%{transform: translateX(0px);}
+}
